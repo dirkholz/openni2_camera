@@ -2,7 +2,7 @@ all: openni2_driver
 
 GIT_DIR = openni2_src
 GIT_URL=-b develop git://github.com/dirkholz/OpenNI2.git
-GIT_REVISION=eb90cb8583ff40f95fc22e45d87898f40bf425d6
+#GIT_REVISION=eb90cb8583ff40f95fc22e45d87898f40bf425d6
 
 include $(shell rospack find mk)/git_checkout.mk
 
